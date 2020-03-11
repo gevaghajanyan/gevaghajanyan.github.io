@@ -1,0 +1,24 @@
+.header {
+  height: 876px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header::before {
+  content: '';
+  height: 746px;
+  width: 100%;
+  background-image: linear-gradient(45deg, var(--primary-light), var(--primary-dark));
+  position: absolute;
+  z-index: 0;
+}
+
+.personalInfo {
+  height: 466px;
+}
+
+.imageContent {
+
+}

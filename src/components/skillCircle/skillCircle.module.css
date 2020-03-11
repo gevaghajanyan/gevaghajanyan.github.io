@@ -1,0 +1,22 @@
+.svg {
+  width: 170px;
+  height: 220px;
+}
+
+.externalCircle {
+  transform-origin: 85px 85px;
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  fill: var(--native-dark);
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+}

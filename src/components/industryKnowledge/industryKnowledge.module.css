@@ -1,0 +1,40 @@
+.content {
+  background: var(--native-white-1);
+  padding: 100px 0;
+}
+
+.header {
+  color: var(--primary-dark);
+  width: 100%;
+  font-size: 33.5px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3.69px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.item {
+  color: var(--native-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.image {
+  margin: 0 25px;
+  max-height: 85px;
+}
+
+.image.rotate {
+  transform: rotate(180deg);
+}

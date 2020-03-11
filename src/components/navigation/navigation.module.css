@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 70px;
+  max-height: 70px;
+  width: 100%;
+}
+
+.menuItem {
+  color: var(--white);
+  font-size: 20px;
+  padding: 0 24px;
+  text-decoration: none;
+}
+
+.cv {
+  font-size: 52px;
+  letter-spacing: 3px;
+  text-align: right;
+  color: #f9f9f9;
+  padding: 0 100px;
+}
+
+.cv::first-letter {
+  font-weight: bold;
+}

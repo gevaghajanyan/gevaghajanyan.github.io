@@ -1,0 +1,127 @@
+.content {
+  padding: 24px 0;
+}
+
+.header {
+  min-height: 50px;
+  display: flex;
+  margin-bottom: 38px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon > :only-child {
+  max-width: 100%;
+}
+
+.title {
+  background-image: linear-gradient(90deg, var(--primary-dark), var(--primary-light));
+  color: var(--primary-dark);
+  margin-left: 70px;
+  font-size: 30.5px;
+  font-weight: bold;
+  text-align: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main {
+  display: flex;
+  position: relative;
+}
+
+.paper {
+  width: 100%;
+  margin: 75px 0 75px 85px;
+  padding: 34px 0 34px 34px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 5px -2px,
+  rgba(0, 0, 0, 0.14) 0 7px 10px 1px,
+  rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+}
+
+.sectionLine {
+  height: inherit;
+  width: 30px;
+  margin-left: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionLine::after {
+  background: var(--native-dark);
+  content: '';
+  width: 1px;
+  height: 100%;
+}
+
+.sectionLine::before {
+  border: 1px solid var(--native-dark);
+  background: var(--white);
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.item {
+  display: flex;
+  min-height: 62px;
+  padding: 5px 0;
+}
+
+.itemDate {
+  min-width: 350px;
+  margin-right: 34px;
+  padding-right: 34px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.calendar {
+  max-width: 100%;
+  filter: opacity(.3);
+}
+
+.itemDate::after {
+  background: var(--native-white);
+  content: '';
+  position: absolute;
+  left: 100%;
+  height: 100%;
+  width: 1px;
+}
+
+.itemIcon {
+  background: var(--native-white);
+  margin-right: 34px;
+  width: 30px;
+  height: 30px;
+}
+
+.itemDateDetails {
+  color: var(--native-black);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.itemMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itemTitle {
+  color: #a9a9a9;
+}
+
+.itemDescription {
+  color: #656565;
+}
