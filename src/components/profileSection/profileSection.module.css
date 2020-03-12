@@ -72,11 +72,13 @@
 
 .item {
   display: flex;
+  flex-wrap: wrap;
   min-height: 62px;
   padding: 5px 0;
 }
 
 .itemDate {
+  height: 62px;
   min-width: 350px;
   margin-right: 34px;
   padding-right: 34px;
@@ -113,6 +115,7 @@
 }
 
 .itemMain {
+  height: 62px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,8 +123,31 @@
 
 .itemTitle {
   color: #a9a9a9;
+  font-weight: bold;
 }
 
 .itemDescription {
   color: #656565;
+}
+
+@media (max-width: 992px) {
+
+  .paper {
+    margin: 35px 0 35px 45px;
+    padding: 24px 0 24px 24px;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+
+  .itemDate::after {
+    background: var(--native-white);
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+  }
 }

@@ -8,11 +8,11 @@
 }
 
 .header {
+  color: var(--white);
   width: 100%;
   font-size: 33.5px;
   font-weight: bold;
   text-align: center;
-  color: var(--white);
   letter-spacing: 3.69px;
 }
 
@@ -20,12 +20,15 @@
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 .skill {
   color: var(--white);
+  padding: 10px;
   max-width: 200px;
+  min-width: 170px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;

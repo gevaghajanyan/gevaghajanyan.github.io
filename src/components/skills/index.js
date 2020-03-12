@@ -1,10 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
 
+import { getImagePathByCode } from './util';
+
 import { myCv } from '../../../data';
 
 import styles from './skills.module.css';
-import { getImagePathByCode } from './util';
 
 export const Skills = () => (
   <section className={styles.content}>
