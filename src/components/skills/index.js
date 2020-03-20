@@ -8,7 +8,10 @@ import { myCv } from '../../../data';
 import styles from './skills.module.css';
 
 export const Skills = () => (
-  <section className={styles.content}>
+  <section
+    id='SKILLS'
+    className={styles.content}
+  >
     <header className={styles.header}>
       <h3>
         SKILLS

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types'
 
 import styles from './profileSection.module.css';
+import { getDate } from '../../helpers/date';
 
 export const ProfileSectionItem = ({
   title,
@@ -20,7 +21,7 @@ export const ProfileSectionItem = ({
         />
       </div>
       <div className={styles.itemDateDetails}>
-        {`${startDate} - ${!isPresent ? endDate : 'Till Now'}`}
+        {`${getDate(startDate)} - ${!isPresent ? getDate(endDate) : 'Till Now'}`}
       </div>
     </div>
     <div className={styles.itemMain}>

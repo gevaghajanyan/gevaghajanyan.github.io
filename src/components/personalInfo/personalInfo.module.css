@@ -16,10 +16,19 @@
   grid-area: image;
   background: #414141;
   margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  height: 100%;
 }
 
 .title {
   grid-area: personalInfo;
+  font-size: 37.5px;
+  text-align: right;
 }
 
 .personalDetails {
@@ -48,4 +57,12 @@
   font-weight: bold;
   color: var(--native-dark);
   text-transform: uppercase;
+}
+
+.name {
+  color: var(--white);
+}
+
+.jobTitle {
+  color: #569da1;
 }

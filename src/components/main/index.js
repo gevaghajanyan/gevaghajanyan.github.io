@@ -9,6 +9,7 @@ import styles from './main.module.css';
 export const Main = () => (
   <section className={styles.content}>
     <ProfileSection
+      id='WORK_EXPERIENCE'
       title='WORK EXPERIENCE'
       data={myCv.workExperience}
       icon={(
@@ -19,6 +20,7 @@ export const Main = () => (
       )}
     />
     <ProfileSection
+      id='EDUCATION'
       title='EDUCATION'
       data={myCv.education}
       icon={(

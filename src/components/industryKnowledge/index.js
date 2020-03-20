@@ -6,7 +6,10 @@ import { myCv } from '../../../data';
 import styles from './industryKnowledge.module.css'
 
 export const IndustryKnowledge = () => (
-  <section className={styles.content}>
+  <section
+    id='INDUSTRY_KNOWLEDGE'
+    className={styles.content}
+  >
     <header className={styles.header}>
       <h3>
         INDUSTRY KNOWLEDGE

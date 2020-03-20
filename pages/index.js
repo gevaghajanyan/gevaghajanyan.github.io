@@ -8,6 +8,7 @@ import { ToolsAndTechnologies } from '../src/components/toolsAndTechnologies';
 import { IndustryKnowledge } from '../src/components/industryKnowledge';
 import { Responsibility } from '../src/components/responsibility';
 import { Footer } from '../src/components/footer';
+import { Interests } from '../src/components/interests';
 
 const Home = () => (
   <>
@@ -23,6 +24,7 @@ const Home = () => (
     <ToolsAndTechnologies />
     <IndustryKnowledge />
     <Responsibility />
+    <Interests />
     <Footer />
   </>
 );

@@ -1,6 +1,7 @@
 .svg {
   width: 170px;
   height: 220px;
+  cursor: pointer;
 }
 
 .externalCircle {
@@ -15,8 +16,27 @@
 }
 
 .image {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
+  transition-duration: 1s;
+  transform-origin: left bottom;
+}
+
+.g {
   overflow: hidden;
+}
+
+.percent {
+  fill: var(--primary-dark);
+  transform: rotate(-90deg);
+  transition-duration: .5s;
+  font-size: 2rem;
+  font-weight: bold;
+  transform-origin: left bottom;
+}
+
+.svg:hover image {
+  transform: rotate(90deg);
+}
+
+.svg:hover .percent {
+  transform: rotate(0deg);
 }

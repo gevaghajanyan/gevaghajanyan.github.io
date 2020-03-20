@@ -4,17 +4,26 @@ import styles from './navigation.module.css';
 
 export const Navigation = () => (
   <nav className={styles.navigation}>
-    {['EDUCATION', 'INTERSHIP', 'WORK EXPERIENCE', 'INTERESTES'].map(menuItem => (
+    {[
+      'WORK EXPERIENCE',
+      'EDUCATION',
+      'SKILLS',
+      'TOOLS AND TECHNOLOGIES',
+      'INDUSTRY KNOWLEDGE',
+    ].map(menuItem => (
       <a
         className={styles.menuItem}
         key={menuItem}
-        href="#"
+        href={`#${menuItem.replace(/\s/g, '_')}`}
       >
         {menuItem}
       </a>
     ))}
-    <div className={styles.cv}>
+    <a
+      href='#'
+      className={styles.cv}
+    >
       CV
-    </div>
+    </a>
   </nav>
 );

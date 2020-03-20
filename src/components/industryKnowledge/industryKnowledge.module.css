@@ -28,6 +28,7 @@
   font-size: 30px;
   margin-bottom: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .image {
@@ -37,4 +38,10 @@
 
 .image.rotate {
   transform: rotate(180deg);
+}
+
+@media (max-width: 992px) {
+  .image {
+    margin: 0 12px;;
+  }
 }

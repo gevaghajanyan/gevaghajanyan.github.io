@@ -10,8 +10,9 @@ export const ProfileSection = ({
   title,
   icon = null,
   data = [],
+  id,
 }) => (
-  <article className={classNames([styles.content, 'container'])}>
+  <article id={id} className={classNames([styles.content, 'container'])}>
     <header className={styles.header}>
       <div className={styles.icon}>
         {icon}
