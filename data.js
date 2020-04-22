@@ -106,34 +106,10 @@ export const myCv = {
       description: 'Strong'
     },
     {
-      id: 'f2238e5b-192f-482e-87eb-f22f91eedf8e',
-      title: 'NextJs',
-      code: 'NEXT_JS',
-      description: 'Good'
-    },
-    {
       id: 'f0998e5b-321f-482e-87eb-f22f65aabf8e',
       title: 'Redux',
       code: 'REDUX',
       description: 'Strong'
-    },
-    {
-      id: '5f7edf3a-26a8-42b2-b777-2061741addfe',
-      title: 'Git',
-      code: 'VERSION_CONTROL_GIT',
-      description: 'Good'
-    },
-    {
-      id: 'fac0525d-673e-4d8d-b90f-d4f4d3652bca',
-      title: 'NodeJs',
-      code: 'NODE_JS',
-      description: 'Beginner'
-    },
-    {
-      id: '7e02446a-25db-417b-af19-447ebea49955',
-      title: 'MongoDb',
-      code: 'MONGO_DB',
-      description: 'Basic'
     },
     {
       id: 'da0608d0-6676-40e3-b63c-6c9194a72eb4',
@@ -148,10 +124,34 @@ export const myCv = {
       description: 'Strong'
     },
     {
+      id: 'f2238e5b-192f-482e-87eb-f22f91eedf8e',
+      title: 'NextJs',
+      code: 'NEXT_JS',
+      description: 'Good'
+    },
+    {
       id: '7e02446a-32db-417b-af19-447ebea49955',
       title: 'Sass',
       code: 'SASS',
       description: 'Good'
+    },
+    {
+      id: '5f7edf3a-26a8-42b2-b777-2061741addfe',
+      title: 'Git',
+      code: 'VERSION_CONTROL_GIT',
+      description: 'Good'
+    },
+    {
+      id: '1e09222a-33db-713b-af19-543ebea49955',
+      title: 'Webpack',
+      code: 'WEBPACK',
+      description: 'Basic'
+    },
+    {
+      id: '7e02446a-25db-417b-af19-447ebea49955',
+      title: 'MongoDb',
+      code: 'MONGO_DB',
+      description: 'Basic'
     },
     {
       id: '7e02446a-33db-417b-af19-447ebea49955',
@@ -166,10 +166,10 @@ export const myCv = {
       description: 'Beginner'
     },
     {
-      id: '1e09222a-33db-713b-af19-543ebea49955',
-      title: 'Webpack',
-      code: 'WEBPACK',
-      description: 'Basic'
+      id: 'fac0525d-673e-4d8d-b90f-d4f4d3652bca',
+      title: 'NodeJs',
+      code: 'NODE_JS',
+      description: 'Beginner'
     },
   ],
   interest: [
@@ -197,11 +197,15 @@ export const myCv = {
   responsibility: [
     {
       id: 'd1ac27ec-e762-413b-a908-81e3bb5d394b',
-      title: 'Good knowledge of Javascript, OOP, data structures and design patterns',
+      title: 'Strong knowledge of Javascript, OOP, data structures and design patterns',
     },
     {
       id: '9189e418-45eb-49cc-96e6-acb4f827ddab',
       title: 'Strong knowledge of frontend technologies and concepts',
+    },
+    {
+      id: 'd1ac27ec-e762-413b-a908-81e3bb5d394a',
+      title: 'Good knowledge of OOP, data structures and design patterns',
     },
     {
       id: '43e51c58-480f-407b-b0a8-9b54922c1832',

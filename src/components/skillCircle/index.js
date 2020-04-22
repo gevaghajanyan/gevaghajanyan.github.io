@@ -47,6 +47,14 @@ export const SkillCircle = ({
     >
       {title}
     </text>
+    <text
+      className={styles.text}
+      x='85'
+      y='225'
+      textAnchor='middle'
+    >
+      ({description})
+    </text>
     <defs>
       <clipPath id="clipPath">
         <circle
