@@ -9,6 +9,7 @@ body {
 
 .container {
   width: 100%;
+  box-sizing: border-box;
   max-width: 1320px;
   margin: 0 auto;
 }

@@ -3,7 +3,7 @@
   min-height: 610px;
   height: 610px;
   display: grid;
-  grid-template-columns: 390px 1fr;
+  grid-template-columns: minmax(250px, 1fr) 2.5fr;
   grid-template-rows: 114px 1fr;
   grid-template-areas: "image personalInfo" "image personalDetails";
   position: absolute;
@@ -12,7 +12,7 @@
 }
 
 .imageContent {
-  width: 390px;
+  width: 100%;
   grid-area: image;
   background: #414141;
   margin: 0;
@@ -65,4 +65,24 @@
 
 .jobTitle {
   color: #569da1;
+}
+
+
+@media (max-width: 1200px) {
+  .personalDetails {
+    padding-right: 20px;
+  }
+  .info {
+    font-size: 16px;
+  }
+  .content {
+    min-height: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-areas: "personalInfo personalInfo" "image personalDetails";
+  }
 }

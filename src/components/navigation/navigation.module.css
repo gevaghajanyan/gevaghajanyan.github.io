@@ -28,3 +28,45 @@
 .cv::first-letter {
   font-weight: bold;
 }
+
+@media (max-width: 1500px) {
+  .menuItem {
+    font-size: 18px;
+    padding: 0 18px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .menuItem {
+    font-size: 16px;
+    padding: 0 16px;
+  }
+
+  .cv {
+    font-size: 34px;
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menuItem {
+    padding: 0 8px;
+  }
+
+  .cv {
+    font-size: 34px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navigation {
+    flex-direction: column;
+    align-items: flex-end;
+    max-height: 115px;
+  }
+
+  .menuItem {
+    padding: 0 8px 8px;
+  }
+}

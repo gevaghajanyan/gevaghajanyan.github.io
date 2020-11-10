@@ -15,6 +15,13 @@
   fill: var(--native-dark);
 }
 
+.text.description {
+  display: none;
+  @media print {
+    display: block;
+  }
+}
+
 .image {
   transition-duration: 1s;
   transform-origin: left bottom;

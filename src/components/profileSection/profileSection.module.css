@@ -37,6 +37,7 @@
   width: 100%;
   margin: 75px 0 75px 85px;
   padding: 34px 0 34px 34px;
+  box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.2) 0 4px 5px -2px,
   rgba(0, 0, 0, 0.14) 0 7px 10px 1px,
   rgba(0, 0, 0, 0.12) 0 1px 18px 0;
@@ -85,6 +86,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .calendar {
@@ -149,5 +151,17 @@
     left: 0;
     height: 1px;
     width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .itemDateDetails {
+    font-size: 18px;
+  }
+
+  .paper {
+    margin: 7px 0 7px 45px;
+    padding: 4px 0 4px 16px;
   }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import styles from './skillCircle.module.css';
 
@@ -48,7 +49,7 @@ export const SkillCircle = ({
       {title}
     </text>
     <text
-      className={styles.text}
+      className={classNames([styles.text, styles.description])}
       x='85'
       y='225'
       textAnchor='middle'
