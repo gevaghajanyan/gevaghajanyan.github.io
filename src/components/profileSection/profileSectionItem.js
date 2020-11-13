@@ -25,7 +25,7 @@ export const ProfileSectionItem = ({
           />
         </div>
         <div className={styles.itemDateDetails}>
-          {`${getDate(startDate)} - ${!isPresent ? getDate(endDate) : 'Till Now'}`}
+          {`${getDate(startDate)} - ${!isPresent ? getDate(endDate) : 'Present'}`}
         </div>
       </div>
       <div className={styles.itemMain}>
