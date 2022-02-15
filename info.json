@@ -17,12 +17,20 @@
   },
   "workExperience": [
     {
+      "id": "c8a9e6a5-d5d3-4b6d-8da9-994b459862ac",
+      "title": "BETCONSTRUCT",
+      "description": "Senior Software Engineer",
+      "startDate": "02-03-2021",
+      "endDate": "",
+      "isPresent": true
+    },
+    {
       "id": "c0a9e6f2-d5d3-4b6d-8da9-994b459862ac",
       "title": "SFL LLC",
       "description": "Javascript Developer",
       "startDate": "01-11-2019",
-      "endDate": "",
-      "isPresent": true
+      "endDate": "29-01-2021",
+      "isPresent": false
     },
     {
       "id": "e5d9af95-66cb-4ac3-870f-561537045ec9",
@@ -125,6 +133,12 @@
       "title": "CSS3",
       "code": "CSS3",
       "description": "Strong"
+    },
+    {
+      "id": "c2ffced8-c36f-4b8a-88df-0477aaadef40",
+      "title": "MobX",
+      "code": "MOBX",
+      "description": "Good"
     },
     {
       "id": "f2238e5b-192f-482e-87eb-f22f91eed08e",

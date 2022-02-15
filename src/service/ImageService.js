@@ -23,6 +23,7 @@ class ImageService {
     BRACKET: '/assets/bracket.svg',
     PORTFOLIO: '/assets/portfolio.svg',
     CALENDAR: '/assets/calendar.svg',
+    MOBX: '/assets/languages/mobx.svg',
   };
 
   getImagePathByCode = (code) => this.images[code];
