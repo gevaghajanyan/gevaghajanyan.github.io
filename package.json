@@ -11,7 +11,7 @@
     "@svgr/webpack": "^5.2.0",
     "axios": "^0.21.0",
     "classnames": "^2.2.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "next": "9.3.2",
     "prop-types": "latest",
     "react": "16.13.0",
