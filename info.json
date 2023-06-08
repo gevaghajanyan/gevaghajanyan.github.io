@@ -20,9 +20,17 @@
       "id": "c8a9e6a5-d5d3-4b6d-8da9-994b459862ac",
       "title": "BETCONSTRUCT",
       "description": "Senior Software Engineer",
-      "startDate": "02-03-2021",
+      "startDate": "23-05-2023",
       "endDate": "",
       "isPresent": true
+    },
+    {
+      "id": "c8a9e6a5-d5d3-4b6d-8da9-994b459862ac",
+      "title": "BETCONSTRUCT",
+      "description": "Senior Software Engineer",
+      "startDate": "02-03-2021",
+      "endDate": "17-05-2022",
+      "isPresent": false
     },
     {
       "id": "c0a9e6f2-d5d3-4b6d-8da9-994b459862ac",
