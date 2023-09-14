@@ -1,5 +1,5 @@
-import axios from 'axios'
-import { BehaviorSubject } from 'rxjs'
+import { BehaviorSubject } from 'rxjs';
+import info from "../../info.json";
 
 class UserService {
   userInfo = new BehaviorSubject({
@@ -12,10 +12,10 @@ class UserService {
       loading: true,
       data: null,
     });
-    const { data } = await axios.get('/api/info');
+
     this.userInfo.next({
       loading: false,
-      data,
+      data: info,
     });
   }
 }
