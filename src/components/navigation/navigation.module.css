@@ -2,9 +2,10 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255,255,255,0.92);
+  background: var(--nav-bg);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
+  transition: background 0.2s, border-color 0.2s;
 }
 
 .inner {
@@ -66,6 +67,32 @@
 }
 
 .cvBtn:hover { opacity: 0.75; }
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.themeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-mid);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.themeBtn:hover {
+  color: var(--text);
+  background: var(--bg-soft);
+}
 
 @media (max-width: 860px) {
   .links { display: none; }

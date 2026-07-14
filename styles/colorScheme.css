@@ -7,5 +7,18 @@
   --text-light: #999999;
   --accent: #111111;
   --green: #16a34a;
+  --nav-bg: rgba(255, 255, 255, 0.92);
   --font: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg: #0f0f0f;
+  --bg-soft: #1a1a1a;
+  --border: #2d2d2d;
+  --text: #eeeeee;
+  --text-mid: #999999;
+  --text-light: #555555;
+  --accent: #eeeeee;
+  --green: #22c55e;
+  --nav-bg: rgba(15, 15, 15, 0.92);
 }

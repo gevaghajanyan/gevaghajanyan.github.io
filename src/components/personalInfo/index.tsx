@@ -16,6 +16,10 @@ export const PersonalInfo: React.FC = () => {
     <div className={styles.hero}>
       <img src='/assets/my.jpg' alt={fullName} className={styles.photo} />
       <div className={styles.info}>
+        {/*<div className={styles.badge}>*/}
+        {/*  <span className={styles.dot} />*/}
+        {/*  Available for opportunities*/}
+        {/*</div>*/}
         <h1 className={styles.name}>{fullName}</h1>
         <p className={styles.role}>{jobTitle}</p>
         <div className={styles.contactGrid}>
