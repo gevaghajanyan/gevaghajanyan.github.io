@@ -24,11 +24,27 @@ const Home: React.FC = () => {
     <>
       <Head>
         <title>Gevorg Aghajanyan — Senior Software Engineer</title>
-        <meta name='description' content='Senior Software Engineer specialising in React, TypeScript, and high-performance web applications.' />
+        <meta name='description' content='Senior Software Engineer with 8+ years of experience in React, TypeScript, and high-performance web engineering. Based in Yerevan, Armenia.' />
+
+        {/* Favicon */}
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+        <link rel='icon' type='image/png' sizes='32x32' href='/favicon.png' />
         <link rel='icon' type='image/x-icon' href='/favicon.ico' />
+
+        {/* Open Graph */}
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://gevaghajanyan.github.io/' />
         <meta property='og:title' content='Gevorg Aghajanyan — Senior Software Engineer' />
-        <meta property='og:image' content='/assets/logo.png' />
+        <meta property='og:description' content='Senior Software Engineer with 8+ years of experience in React, TypeScript, and high-performance web engineering. Based in Yerevan, Armenia.' />
+        <meta property='og:image' content='https://gevaghajanyan.github.io/assets/logo-400.png' />
+        <meta property='og:image:width' content='400' />
+        <meta property='og:image:height' content='400' />
+
+        {/* Twitter Card */}
+        <meta name='twitter:card' content='summary' />
+        <meta name='twitter:title' content='Gevorg Aghajanyan — Senior Software Engineer' />
+        <meta name='twitter:description' content='Senior Software Engineer with 8+ years of experience in React, TypeScript, and high-performance web engineering. Based in Yerevan, Armenia.' />
+        <meta name='twitter:image' content='https://gevaghajanyan.github.io/assets/logo-400.png' />
       </Head>
       <Header />
       <Summary />
