@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 import { Header } from '../src/components/header';
@@ -8,11 +8,13 @@ import { ToolsAndTechnologies } from '../src/components/toolsAndTechnologies';
 import { IndustryKnowledge } from '../src/components/industryKnowledge';
 import { Footer } from '../src/components/footer';
 import { Interests } from '../src/components/interests';
+import { SpaceShooterGame } from '../src/components/spaceShooter';
 import { useUserService } from '../src/hooks/useUserService';
 import { userService } from '../src/service/UserService';
 
 const Home: React.FC = () => {
   const { loading } = useUserService();
+  const [gameOpen, setGameOpen] = useState(false);
 
   useEffect(() => {
     userService.getUserInfo();
@@ -46,13 +48,16 @@ const Home: React.FC = () => {
         <meta name='twitter:description' content='Senior Software Engineer with 8+ years of experience in React, TypeScript, and high-performance web engineering. Based in Yerevan, Armenia.' />
         <meta name='twitter:image' content='https://gevaghajanyan.github.io/assets/logo-400.png' />
       </Head>
+
       <Header />
       <Summary />
       <Main />
       <ToolsAndTechnologies />
       <IndustryKnowledge />
       <Interests />
-      <Footer />
+      <Footer onGame={() => setGameOpen(true)} />
+
+      {gameOpen && <SpaceShooterGame onClose={() => setGameOpen(false)} />}
     </>
   );
 };

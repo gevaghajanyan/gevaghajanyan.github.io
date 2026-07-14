@@ -33,6 +33,19 @@
 
 .link:hover { color: var(--text); }
 
+.egg {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  opacity: 0.15;
+  margin-left: 8px;
+  padding: 0;
+  transition: opacity 0.2s;
+  vertical-align: middle;
+}
+.egg:hover { opacity: 0.7; }
+
 @media (max-width: 640px) {
   .inner {
     flex-direction: column;
