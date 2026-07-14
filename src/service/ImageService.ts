@@ -1,5 +1,12 @@
+type ImageCode =
+  | 'TYPESCRIPT' | 'NEXT_JS' | 'REDUX' | 'VERSION_CONTROL_GIT'
+  | 'HTML5' | 'NODE_JS' | 'MONGO_DB' | 'CSS3' | 'SASS' | 'LESS'
+  | 'DOCKER' | 'WEBPACK' | 'RX_JS' | 'JAVASCRIPT' | 'REACTJS'
+  | 'REACT_NATIVE' | 'CODING' | 'MUSIC' | 'GAMING' | 'BICYCLE_RIDING'
+  | 'BRACKET' | 'PORTFOLIO' | 'CALENDAR' | 'MOBX';
+
 class ImageService {
-  images = {
+  private images: Record<ImageCode, string> = {
     TYPESCRIPT: '/assets/languages/typescript.svg',
     NEXT_JS: '/assets/languages/nextjs.svg',
     REDUX: '/assets/languages/redux.svg',
@@ -26,7 +33,8 @@ class ImageService {
     MOBX: '/assets/languages/mobx.svg',
   };
 
-  getImagePathByCode = (code) => this.images[code];
+  getImagePathByCode = (code: string): string =>
+    this.images[code as ImageCode] ?? '';
 }
 
 export const imageService = new ImageService();

@@ -1,49 +1,17 @@
-.svg {
-  width: 170px;
-  height: 230px;
-  cursor: pointer;
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: var(--bg);
+  transition: background 0.15s;
+  cursor: default;
 }
 
-.externalCircle {
-  transform-origin: 85px 85px;
-}
+.card:hover { background: var(--bg-soft); }
 
-.text {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  fill: var(--native-dark);
-}
-
-.text.description {
-  display: none;
-  @media print {
-    display: block;
-  }
-}
-
-.image {
-  transition-duration: 1s;
-  transform-origin: left bottom;
-}
-
-.g {
-  overflow: hidden;
-}
-
-.percent {
-  fill: var(--primary-dark);
-  transform: rotate(-90deg);
-  transition-duration: .5s;
-  font-size: 2rem;
-  font-weight: bold;
-  transform-origin: left bottom;
-}
-
-.svg:hover image {
-  transform: rotate(90deg);
-}
-
-.svg:hover .percent {
-  transform: rotate(0deg);
+.name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
 }

@@ -1,26 +1,48 @@
-.content {
+.section {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-bottom: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.filler {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 480px;
-  padding: 100px 0;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 12px 16px;
+  background: var(--bg-soft);
+  gap: 2px;
 }
 
-.header {
-  color: var(--native-dark);
-  width: 100%;
-  font-size: 33.5px;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 4px;
-  margin-bottom: 50px;
+.fillerNum {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.03em;
+  line-height: 1;
 }
 
-.main {
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
-  grid-gap: 24px;
-  flex-wrap: wrap;
+.fillerLabel {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-light);
+  letter-spacing: 0.02em;
 }

@@ -1,0 +1,12 @@
+.section {
+  padding: 48px 0 0;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-mid);
+  max-width: 760px;
+  margin: 0;
+}

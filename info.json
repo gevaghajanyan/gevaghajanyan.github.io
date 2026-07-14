@@ -3,50 +3,88 @@
     "firstName": "Gevorg",
     "lastName": "Aghajanyan",
     "fullName": "Gevorg Aghajanyan",
-    "jobTitle": "Javascript Developer",
+    "jobTitle": "Senior Software Engineer",
     "birthDay": "28-08-1995",
-    "address": "Armenia, Yerevan, Antarayin 37",
+    "address": "Yerevan, Armenia",
     "email": "g.aghajanyan1995@gmail.com",
-    "phone": "(+374) 94 121 666",
+    "phone": "(+374) 44 121 666",
     "skype": "",
     "languages": [
       "Armenian (native), ",
-      "Russian (good), ",
-      "English (intermediate)"
+      "English (intermediate), ",
+      "Russian (good)"
     ]
   },
   "workExperience": [
     {
-      "id": "c8a9e6a5-d5d3-4b6d-8da9-994b449862ac",
-      "title": "Podcastle",
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "title": "Async",
       "description": "Senior Software Engineer",
-      "startDate": "23-05-2023",
+      "startDate": "01-05-2022",
       "endDate": "",
-      "isPresent": true
+      "isPresent": true,
+      "details": [
+        "Architect and scale a high-performance audio and video editing web application using React and TypeScript.",
+        "Offload heavy computational rendering and media processing to Web Workers and WebAssembly, minimising main-thread blocking.",
+        "Implement advanced asset optimisation techniques using modern browser APIs, reducing bundle sizes and improving Core Web Vitals.",
+        "Collaborate with cross-functional product teams to establish modern engineering standards and deliver near-native web experiences.",
+        "Utilise AI-assisted tools like Claude Code to accelerate development velocity and streamline coding workflows.",
+        "Expand backend service functionality by implementing new features, applying full-stack skills end-to-end."
+      ]
     },
     {
       "id": "c8a9e6a5-d5d3-4b6d-8da9-994b459862ac",
-      "title": "BETCONSTRUCT",
-      "description": "Senior Software Engineer",
+      "title": "BetConstruct (Pascal Gaming)",
+      "description": "Senior Software Engineer / Tech Lead",
       "startDate": "02-03-2021",
       "endDate": "17-05-2022",
-      "isPresent": false
+      "isPresent": false,
+      "details": [
+        "Served as Tech Lead for Pascal Gaming, a major enterprise gaming division within BetConstruct.",
+        "Engineered high-performance, real-time web arcade games using Pixi.js and Spine for complex 2D animations.",
+        "Drove architectural decisions for game engines ensuring low-latency data handling and smooth cross-browser performance.",
+        "Mentored incoming engineers, standardising modern JavaScript/TypeScript practices and accelerating onboarding."
+      ]
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "title": "BeeGraphy",
+      "description": "Senior Software Engineer (Part-time)",
+      "startDate": "01-05-2021",
+      "endDate": "01-01-2022",
+      "isPresent": false,
+      "details": [
+        "Developed and optimised high-performance, cloud-based 3D parametric and computational modelling tools running in the browser.",
+        "Architected scalable web applications and real-time collaborative editors with low-latency rendering.",
+        "Mentored junior engineers on clean code practices, modern frameworks, and optimal data management structures."
+      ]
     },
     {
       "id": "c0a9e6f2-d5d3-4b6d-8da9-994b459862ac",
-      "title": "SFL LLC",
-      "description": "Javascript Developer",
+      "title": "SFL LLC (acquired by DataArt)",
+      "description": "Senior Software Engineer",
       "startDate": "01-11-2019",
       "endDate": "29-01-2021",
-      "isPresent": false
+      "isPresent": false,
+      "details": [
+        "Developed complex, secure web interfaces for a large-scale banking application using React and modern state management.",
+        "Built deep domain expertise in banking products, financial workflows, and secure data handling standards.",
+        "Engineered and maintained a high-performance API gateway using Node.js for microservice data aggregation.",
+        "Collaborated with cross-functional teams on scalable layouts, cross-browser optimisation, and stable API connectivity."
+      ]
     },
     {
       "id": "e5d9af95-66cb-4ac3-870f-561537045ec9",
-      "title": "BETCONSTRUCT",
-      "description": "ReactJs Developer",
-      "startDate": "05-07-2018",
+      "title": "BetConstruct",
+      "description": "Software Engineer / Team Lead",
+      "startDate": "05-06-2018",
       "endDate": "01-11-2019",
-      "isPresent": false
+      "isPresent": false,
+      "details": [
+        "Led a frontend team, managing delivery timelines and standardising Redux state management across web and mobile modules.",
+        "Engineered and shipped cross-platform applications using React and React Native.",
+        "Trained and onboarded junior engineers on the React ecosystem, component libraries, and hybrid app performance."
+      ]
     },
     {
       "id": "0656c969-d736-4c7d-9a61-48f3b0a8f23a",
@@ -54,22 +92,32 @@
       "description": "Front End Developer",
       "startDate": "01-04-2018",
       "endDate": "01-08-2018",
-      "isPresent": false
+      "isPresent": false,
+      "details": [
+        "Developed a responsive e-commerce web application for an online food delivery platform.",
+        "Built foundational UI components using HTML5, CSS3, and JavaScript for consistent cross-device rendering.",
+        "Translated design mockups into pixel-accurate, cross-browser compatible layouts under tight timelines."
+      ]
     },
     {
       "id": "0656c969-d736-4c7d-9a61-48f3b0a7f23a",
-      "title": "Basic It Center",
-      "description": "Javascript, ReactJs tutor",
+      "title": "Basic IT Center",
+      "description": "JavaScript & ReactJS Tutor",
       "startDate": "01-09-2017",
       "endDate": "01-04-2018",
-      "isPresent": false
+      "isPresent": false,
+      "details": [
+        "Mentored aspiring developers, helping them build foundational skills to launch software engineering careers.",
+        "Designed and delivered curriculum covering HTML5, JavaScript, React, Redux, and asynchronous programming.",
+        "Conducted coding workshops and reviewed student projects to instil clean coding standards."
+      ]
     }
   ],
   "education": [
     {
       "id": "c0a54af2-d5d3-4b6d-8da9-994b459987ac",
       "title": "Yerevan State University",
-      "description": "BA, Faculty of informatics and applied Mathematics",
+      "description": "Bachelor of Arts, Informatics and Applied Mathematics",
       "startDate": "01-09-2012",
       "endDate": "05-06-2020",
       "isPresent": false
@@ -77,180 +125,70 @@
     {
       "id": "6b1eb569-edba-48e7-8671-6a94617b0f19",
       "title": "Armenian Code Academy",
-      "description": "Javascript Course",
+      "description": "JavaScript Program Certification",
       "startDate": "01-02-2017",
       "endDate": "01-08-2017",
       "isPresent": false
     }
   ],
   "skills": [
-    {
-      "id": "e1d5ed1d-9f6d-4520-8276-924efaf8710d",
-      "title": "Javascript",
-      "code": "JAVASCRIPT"
-    },
-    {
-      "id": "fcd03e04-d850-4aaa-a114-9d8373b55969",
-      "title": "ReactJs",
-      "code": "REACTJS"
-    },
-    {
-      "id": "e7e16048-2fd4-4411-8074-9d80dc0a0148",
-      "title": "React Native",
-      "code": "REACT_NATIVE"
-    }
+    { "id": "sk-js",  "title": "JavaScript",   "code": "JAVASCRIPT"   },
+    { "id": "sk-ts",  "title": "TypeScript",    "code": "TYPESCRIPT"   },
+    { "id": "sk-rct", "title": "React",         "code": "REACTJS"      },
+    { "id": "sk-rn",  "title": "React Native",  "code": "REACT_NATIVE" },
+    { "id": "sk-h5",  "title": "HTML5",         "code": "HTML5"        },
+    { "id": "sk-cs",  "title": "CSS3",          "code": "CSS3"         }
   ],
   "industryKnowledge": [
-    {
-      "id": "b0760181-c510-4dc4-a24d-138559d0f7fb",
-      "title": "Front-end Development",
-      "code": "FRONT_END_DEVELOPMENT"
-    },
-    {
-      "id": "780364cf-0580-473a-9f1c-7219431b2504",
-      "title": "Design Patterns",
-      "code": "DESIGN_PATTERNS"
-    },
-    {
-      "id": "653c0aee-c94d-49ff-b5d2-8a63d0a8c809",
-      "title": "OOP",
-      "code": "OOP"
-    }
+    { "id": "ik-1",  "title": "Front-end Development"                     },
+    { "id": "ik-2",  "title": "Web Performance & Core Web Vitals"         },
+    { "id": "ik-3",  "title": "Advanced Browser APIs — WASM & Web Workers"},
+    { "id": "ik-4",  "title": "Design Patterns & Architecture"            },
+    { "id": "ik-5",  "title": "OOP & SOLID Principles"                    },
+    { "id": "ik-6",  "title": "Data Structures & Algorithms"              },
+    { "id": "ik-7",  "title": "Real-time Applications & Game Development" },
+    { "id": "ik-8",  "title": "Node.js & Microservices"                   },
+    { "id": "ik-9",  "title": "Styling & Design Systems"                  },
+    { "id": "ik-10", "title": "Analytics & Engagement Tools"              }
   ],
   "toolsAndTechnologies": [
-    {
-      "id": "69a54220-b1e2-4136-8a6c-8d57ab8bc62b",
-      "title": "TypeScript",
-      "code": "TYPESCRIPT",
-      "description": "Strong"
-    },
-    {
-      "id": "f0998e5b-321f-482e-87eb-f22f65aabf8e",
-      "title": "Redux",
-      "code": "REDUX",
-      "description": "Strong"
-    },
-    {
-      "id": "da0608d0-6676-40e3-b63c-6c9194a72eb4",
-      "title": "HTML5",
-      "code": "HTML5",
-      "description": "Strong"
-    },
-    {
-      "id": "c2ffced8-c36f-4b0a-98df-0477aaadef40",
-      "title": "CSS3",
-      "code": "CSS3",
-      "description": "Strong"
-    },
-    {
-      "id": "c2ffced8-c36f-4b8a-88df-0477aaadef40",
-      "title": "MobX",
-      "code": "MOBX",
-      "description": "Good"
-    },
-    {
-      "id": "f2238e5b-192f-482e-87eb-f22f91eed08e",
-      "title": "RxJs",
-      "code": "RX_JS",
-      "description": "Good"
-    },
-    {
-      "id": "f2238e5b-192f-482e-87eb-f22f91eedf8e",
-      "title": "NextJs",
-      "code": "NEXT_JS",
-      "description": "Good"
-    },
-    {
-      "id": "7e02446a-32db-417b-af19-447ebea49955",
-      "title": "Sass",
-      "code": "SASS",
-      "description": "Good"
-    },
-    {
-      "id": "5f7edf3a-26a8-42b2-b777-2061741addfe",
-      "title": "Git",
-      "code": "VERSION_CONTROL_GIT",
-      "description": "Good"
-    },
-    {
-      "id": "fac0525d-673e-4d8d-b90f-d4f4d3652bca",
-      "title": "NodeJs",
-      "code": "NODE_JS",
-      "description": "Basic"
-    },
-    {
-      "id": "1e09222a-33db-713b-af19-543ebea49955",
-      "title": "Webpack",
-      "code": "WEBPACK",
-      "description": "Basic"
-    },
-    {
-      "id": "7e02446a-25db-417b-af19-447ebea49955",
-      "title": "MongoDb",
-      "code": "MONGO_DB",
-      "description": "Basic"
-    },
-    {
-      "id": "7e09999a-33db-417b-af19-447ebea49955",
-      "title": "Docker",
-      "code": "DOCKER",
-      "description": "Beginner"
-    }
+    { "id": "tl-js",  "title": "JavaScript",      "code": "JAVASCRIPT",          "description": "" },
+    { "id": "tl-ts",  "title": "TypeScript",      "code": "TYPESCRIPT",          "description": "" },
+    { "id": "tl-rct", "title": "React",           "code": "REACTJS",             "description": "" },
+    { "id": "tl-rn",  "title": "React Native",    "code": "REACT_NATIVE",        "description": "" },
+    { "id": "tl-exp", "title": "Expo",            "code": "EXPO",                "description": "" },
+    { "id": "tl-rdx", "title": "Redux",           "code": "REDUX",               "description": "" },
+    { "id": "tl-mbx", "title": "MobX",            "code": "MOBX",                "description": "" },
+    { "id": "tl-rx",  "title": "RxJS",            "code": "RX_JS",               "description": "" },
+    { "id": "tl-nxt", "title": "Next.js",         "code": "NEXT_JS",             "description": "" },
+    { "id": "tl-h5",  "title": "HTML5",           "code": "HTML5",               "description": "" },
+    { "id": "tl-cs",  "title": "CSS3",            "code": "CSS3",                "description": "" },
+    { "id": "tl-sas", "title": "Sass",            "code": "SASS",                "description": "" },
+    { "id": "tl-tw",  "title": "Tailwind",        "code": "TAILWIND",            "description": "" },
+    { "id": "tl-nd",  "title": "Node.js",         "code": "NODE_JS",             "description": "" },
+    { "id": "tl-gql", "title": "GraphQL",         "code": "GRAPHQL",             "description": "" },
+    { "id": "tl-wp",  "title": "Webpack",         "code": "WEBPACK",             "description": "" },
+    { "id": "tl-vt",  "title": "Vite",            "code": "VITE",                "description": "" },
+    { "id": "tl-git", "title": "Git",             "code": "VERSION_CONTROL_GIT", "description": "" },
+    { "id": "tl-gh",  "title": "GitHub",          "code": "GITHUB",              "description": "" },
+    { "id": "tl-gha", "title": "GitHub Actions",  "code": "GITHUB_ACTIONS",      "description": "" },
+    { "id": "tl-wasm","title": "WebAssembly",     "code": "WASM",                "description": "" },
+    { "id": "tl-mg",  "title": "MongoDB",         "code": "MONGO_DB",            "description": "" },
+    { "id": "tl-dk",  "title": "Docker",          "code": "DOCKER",              "description": "" }
   ],
   "interest": [
-    {
-      "id": "1b4787fb-f7cb-4118-b744-7280778c8001",
-      "title": "Coding",
-      "code": "CODING"
-    },
-    {
-      "id": "1f4787fb-f7cb-4118-b744-7280778c8002",
-      "title": "Music",
-      "code": "MUSIC"
-    },
-    {
-      "id": "1a4787fb-f7cb-4118-b844-7280778c8003",
-      "title": "Gaming",
-      "code": "GAMING"
-    },
-    {
-      "id": "2c4787fb-f7cb-4118-b844-7280778c8004",
-      "title": "Bicycle Riding",
-      "code": "BICYCLE_RIDING"
-    }
+    { "id": "in-1", "title": "Coding",         "code": "CODING"        },
+    { "id": "in-3", "title": "Gaming",         "code": "GAMING"        },
+    { "id": "in-4", "title": "Bicycle Riding", "code": "BICYCLE_RIDING"}
   ],
   "responsibility": [
-    {
-      "id": "d1ac27ec-e762-413b-a908-81e3bb5d394b",
-      "title": "Strong knowledge of Javascript, OOP, data structures and design patterns"
-    },
-    {
-      "id": "9189e418-45eb-49cc-96e6-acb4f827ddab",
-      "title": "Strong knowledge of frontend technologies and concepts"
-    },
-    {
-      "id": "d1ac27ec-e762-413b-a908-81e3bb5d394a",
-      "title": "Good knowledge of OOP, data structures and design patterns"
-    },
-    {
-      "id": "43e51c58-480f-407b-b0a8-9b54922c1832",
-      "title": "Excellent understanding of SOLID principles and clean coding standards"
-    },
-    {
-      "id": "1d653332-7f17-47b5-8da3-6cf6f911d676",
-      "title": "Monitor and improve the resource usage and overall performance of the sites"
-    },
-    {
-      "id": "f55b4c7f-c184-4a84-9a79-d5350bc2eef2",
-      "title": "Contribute to the overall tech decisions and help the team to achieve their goals"
-    },
-    {
-      "id": "df96965b-7bcb-48c6-9a13-4d3d46823b0a",
-      "title": "Help train and coach new team members"
-    },
-    {
-      "id": "c6eb3fe9-0746-48a4-a8be-4f5808a2978b",
-      "title": "Analyze product requirements and translating to design specifications"
-    }
+    { "id": "r1", "title": "Expert in JavaScript (ES5+) and TypeScript ecosystems"                             },
+    { "id": "r2", "title": "Specialized in React, React Native, and Expo — web and mobile engineering"         },
+    { "id": "r3", "title": "Architect high-performance applications using WASM and Web Workers"                 },
+    { "id": "r4", "title": "Design Node.js microservice gateways for scalable backend services"                 },
+    { "id": "r5", "title": "Engineer real-time 2D game mechanics with Pixi.js and Spine"                       },
+    { "id": "r6", "title": "Apply SOLID principles, design patterns, and clean coding standards"                },
+    { "id": "r7", "title": "Tech Lead: mentor engineers and standardise modern engineering practices"            },
+    { "id": "r8", "title": "Web Performance Optimisation: Core Web Vitals, Code Splitting, Lazy Loading"       }
   ]
 }

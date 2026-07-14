@@ -1,72 +1,73 @@
-.navigation {
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 52px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  position: relative;
-  z-index: 1;
-  padding-top: 70px;
-  max-height: 70px;
-  width: 100%;
+  justify-content: space-between;
 }
 
-.menuItem {
-  color: var(--white);
-  font-size: 20px;
-  padding: 0 24px;
+.logo {
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
-.cv {
-  font-size: 52px;
-  letter-spacing: 3px;
-  text-align: right;
-  color: #f9f9f9;
-  padding: 0 100px;
+.logoImg {
+  width: 36px;
+  height: 36px;
+  display: block;
+  border-radius: 7px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-light);
   text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+  white-space: nowrap;
 }
 
-.cv::first-letter {
-  font-weight: bold;
+.link:hover {
+  color: var(--text);
+  background: var(--bg-soft);
 }
 
-@media (max-width: 1500px) {
-  .menuItem {
-    font-size: 18px;
-    padding: 0 18px;
-  }
+.cvBtn {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--bg);
+  background: var(--text);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  margin-left: 8px;
+  transition: opacity 0.15s;
 }
 
-@media (max-width: 1300px) {
-  .menuItem {
-    font-size: 16px;
-    padding: 0 16px;
-  }
+.cvBtn:hover { opacity: 0.75; }
 
-  .cv {
-    font-size: 34px;
-    padding: 0 80px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .menuItem {
-    padding: 0 8px;
-  }
-
-  .cv {
-    font-size: 34px;
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 992px) {
-  .navigation {
-    flex-direction: column;
-    align-items: flex-end;
-    max-height: 115px;
-  }
-
-  .menuItem {
-    padding: 0 8px 8px;
-  }
+@media (max-width: 860px) {
+  .links { display: none; }
+  .inner { padding: 0 20px; }
 }

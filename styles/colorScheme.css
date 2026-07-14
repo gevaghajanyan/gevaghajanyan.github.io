@@ -1,16 +1,11 @@
 :root {
-  --primary-light: #569DA1;
-  --primary-dark: #44374A;
-  --native-dark: #433346;
-  --native-black: #555555;
-  --white: #FFFFFF;
-  --native-white: #EDEDED;
-  --native-white-1: #F5F5F5;
-}
-
-.t {
-  color: #e01d84;
-  color: #da1e85;
-  color: #c72085;
-  color: #b52284;
+  --bg: #ffffff;
+  --bg-soft: #f7f7f7;
+  --border: #e8e8e8;
+  --text: #111111;
+  --text-mid: #555555;
+  --text-light: #999999;
+  --accent: #111111;
+  --green: #16a34a;
+  --font: 'Plus Jakarta Sans', system-ui, sans-serif;
 }
