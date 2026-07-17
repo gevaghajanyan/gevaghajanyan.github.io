@@ -4,17 +4,23 @@ import Head from 'next/head';
 import { Header } from '../src/components/header';
 import { Summary } from '../src/components/summary';
 import { Main } from '../src/components/main';
-import { ToolsAndTechnologies } from '../src/components/toolsAndTechnologies';
-import { IndustryKnowledge } from '../src/components/industryKnowledge';
+import { ToolsAndTechnologies } from '../src/components/tools-and-technologies';
+import { IndustryKnowledge } from '../src/components/industry-knowledge';
 import { Footer } from '../src/components/footer';
 import { Interests } from '../src/components/interests';
-import { SpaceShooterGame } from '../src/components/spaceShooter';
+import { SpaceShooterGame } from '../src/components/space-shooter';
+import { PingPongGameComponent } from '../src/components/ping-pong';
+import { SnakeGameComponent } from '../src/components/snake';
+import { FlappyBirdGameComponent } from '../src/components/flappy-bird';
 import { useUserService } from '../src/hooks/useUserService';
 import { userService } from '../src/service/UserService';
 
 const Home: React.FC = () => {
   const { loading } = useUserService();
-  const [gameOpen, setGameOpen] = useState(false);
+  const [gameOpen, setGameOpen]         = useState(false);
+  const [pingPongOpen, setPingPongOpen] = useState(false);
+  const [snakeOpen, setSnakeOpen]       = useState(false);
+  const [flappyOpen, setFlappyOpen]     = useState(false);
 
   useEffect(() => {
     userService.getUserInfo();
@@ -55,9 +61,17 @@ const Home: React.FC = () => {
       <ToolsAndTechnologies />
       <IndustryKnowledge />
       <Interests />
-      <Footer onGame={() => setGameOpen(true)} />
+      <Footer
+        onGame={() => setGameOpen(true)}
+        onPingPong={() => setPingPongOpen(true)}
+        onSnake={() => setSnakeOpen(true)}
+        onFlappy={() => setFlappyOpen(true)}
+      />
 
-      {gameOpen && <SpaceShooterGame onClose={() => setGameOpen(false)} />}
+      {gameOpen     && <SpaceShooterGame     onClose={() => setGameOpen(false)} />}
+      {pingPongOpen && <PingPongGameComponent onClose={() => setPingPongOpen(false)} />}
+      {snakeOpen    && <SnakeGameComponent    onClose={() => setSnakeOpen(false)} />}
+      {flappyOpen   && <FlappyBirdGameComponent onClose={() => setFlappyOpen(false)} />}
     </>
   );
 };

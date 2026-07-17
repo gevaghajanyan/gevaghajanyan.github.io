@@ -1,7 +1,7 @@
 import React from 'react';
-import { ProfileSectionItem } from './profileSectionItem';
+import { ProfileSectionItem } from './profile-section-item';
 import { WorkItem } from '../../types';
-import styles from './profileSection.module.css';
+import styles from './profile-section.module.css';
 
 interface ProfileSectionProps {
   id: string;

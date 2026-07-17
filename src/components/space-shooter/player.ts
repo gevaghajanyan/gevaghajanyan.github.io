@@ -1,4 +1,4 @@
-import { Bullet } from './Bullet';
+import { Bullet } from './bullet';
 
 export class Player {
   readonly speed = 5;

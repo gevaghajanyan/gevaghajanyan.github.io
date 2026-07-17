@@ -1,6 +1,6 @@
 import React from 'react';
-import { TechIcon } from '../TechIcon';
-import styles from './skillCircle.module.css';
+import { TechIcon } from '../tech-icon';
+import styles from './skill-circle.module.css';
 
 interface SkillCircleProps {
   title?: string;

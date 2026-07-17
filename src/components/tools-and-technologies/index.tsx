@@ -1,7 +1,7 @@
 import React from 'react';
-import { SkillCircle } from '../skillCircle';
+import { SkillCircle } from '../skill-circle';
 import { useUserService } from '../../hooks/useUserService';
-import styles from './toolsAndTechnologies.module.css';
+import styles from './tools-and-technologies.module.css';
 
 export const ToolsAndTechnologies: React.FC = () => {
   const { toolsAndTechnologies } = useUserService();

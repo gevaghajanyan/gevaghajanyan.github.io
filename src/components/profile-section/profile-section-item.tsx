@@ -1,6 +1,6 @@
 import React from 'react';
 import { getDate } from '../../helpers/date';
-import styles from './profileSection.module.css';
+import styles from './profile-section.module.css';
 
 interface ProfileSectionItemProps {
   title: string;

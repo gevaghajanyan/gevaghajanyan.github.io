@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProfileSection } from '../profileSection';
+import { ProfileSection } from '../profile-section';
 import { useUserService } from '../../hooks/useUserService';
 
 export const Main: React.FC = () => {

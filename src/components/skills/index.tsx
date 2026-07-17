@@ -1,6 +1,6 @@
 import React from 'react';
 import { useUserService } from '../../hooks/useUserService';
-import { TechIcon } from '../TechIcon';
+import { TechIcon } from '../tech-icon';
 import styles from './skills.module.css';
 
 export const Skills: React.FC = () => {

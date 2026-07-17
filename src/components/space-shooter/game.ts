@@ -1,8 +1,8 @@
-import { Player } from './Player';
-import { Bullet } from './Bullet';
-import { Enemy } from './Enemy';
-import { Particle } from './Particle';
-import { Star } from './Star';
+import { Player } from './player';
+import { Bullet } from './bullet';
+import { Enemy } from './enemy';
+import { Particle } from './particle';
+import { Star } from './star';
 import { ContribDay, EXPLOSION_COLORS, BLAST_THRESHOLDS } from './constants';
 
 interface YearBand {

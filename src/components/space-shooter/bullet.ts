@@ -1,4 +1,4 @@
-import { Enemy } from './Enemy';
+import { Enemy } from './enemy';
 
 export class Bullet {
   static readonly SPEED = 9;

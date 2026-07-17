@@ -1,6 +1,6 @@
 import React from 'react';
 import { useUserService } from '../../hooks/useUserService';
-import styles from './industryKnowledge.module.css';
+import styles from './industry-knowledge.module.css';
 
 export const IndustryKnowledge: React.FC = () => {
   const { industryKnowledge } = useUserService();
