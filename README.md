@@ -1,7 +1,7 @@
 # **Gevorg Aghajanyan**
 
 **Senior Software Engineer**  
-Yerevan, Armenia | (+374) 44 121 666 | g.aghajanyan1995@gmail.com  
+Yerevan, Armenia | (+374) 44 121 666 | g.aghajanyan1995  
 Portfolio: [gevaghajanyan.github.io](https://gevaghajanyan.github.io/) | [LinkedIn](https://www.linkedin.com/in/gevorg-aghajanyan-31a809144/) | [GitHub](https://github.com/gevaghajanyan)
 
 ## ---
